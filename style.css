@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef8ff;
+    color: #405a6b;
+}
+
+/* MENU */
+
+nav {
+    background-color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px #d5e8f5;
+}
+
+nav a {
+    text-decoration: none;
+    color: #52758f;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #4b9dcc;
+}
+
+/* JUDUL */
+
+h1 {
+    color: #4b9dcc;
+}
+
+/* HOME */
+
+.home {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 40px;
+}
+
+/* FOTO */
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* HALAMAN */
+
+.halaman {
+    text-align: center;
+    padding: 60px 10%;
+}
+
+/* KOTAK */
+
+.kotak {
+    background-color: white;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #d5e8f5;
+}
+
+.kotak h2 {
+    color: #5da9d6;
+}
+
+/* TOMBOL */
+
+.tombol {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #79bde3;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.tombol:hover {
+    background-color: #5da9d6;
+}
